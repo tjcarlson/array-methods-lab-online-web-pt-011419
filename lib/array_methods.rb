@@ -5,15 +5,6 @@ def using_include(array, element)
       element1 = "wow"
       element2 = "Tardis"
 
-
-  describe "#using_reverse" do
-    it "takes in argument of an array and returns that same array with the contents reversed." do
-      array = ["wow", "I", "am", "really", "learning", "arrays!"]
-      expect(using_reverse(array).first).to eq("arrays!")
-      expect(using_reverse(array).last).to eq("wow")
-    end
-  end
-
   describe "#using_first" do
     it "takes in argument of an array and and returns the first element in the array" do
       array = ["wow", "I", "am", "really", "learning", "arrays!"]
@@ -42,7 +33,9 @@ def using_sort(array)
 end
 
 def using_reverse(array)
-
+        array = ["wow", "I", "am", "really", "learning", "arrays!"]
+        expect(using_reverse(array).first).to eq("arrays!")
+        expect(using_reverse(array).last).to eq("wow")
 end
 
 def using_first(array)
