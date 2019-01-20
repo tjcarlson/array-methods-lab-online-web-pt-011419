@@ -3,7 +3,7 @@ def using_include(array, element)
     it "takes in arguments of an array and an element and returns true if the array includes that element, false if it does not." do
       array = ["wow", "I", "am", "really", "learning", "arrays!"]
       array.include?("wow")
-      element2 = "Tardis"
+      array.include?("Tardis")
 end
 
 def using_sort(array)
