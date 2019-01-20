@@ -6,8 +6,7 @@ end
 
 def using_sort(array)
       array = ["wow", "I", "am", "really", "learning", "arrays!"]
-      expect(using_sort(array).last).to eq("wow")
-      expect(using_sort(array).first).to eq("I")
+      array.sort
 end
 
 def using_reverse(array)
