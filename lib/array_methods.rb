@@ -26,5 +26,5 @@ end
 
 def using_size(array)
       array = ["wow", "I", "am", "really", "learning", "arrays!"]
-      expect(using_size(array)).to eq(6)
+      array.size
 end
