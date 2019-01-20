@@ -21,7 +21,7 @@ end
 
 def using_last(array)
       array = ["wow", "I", "am", "really", "learning", "arrays!"]
-      expect(using_last(array)).to eq("arrays!")
+      array.last
 end
 
 def using_size(array)
